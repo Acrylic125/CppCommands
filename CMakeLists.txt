@@ -3,4 +3,4 @@ project(CppCommands)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(CppCommands SHARED library.cpp library.h command.h cmds.cpp executor/CommandExecutor.cpp executor/CommandExecutor.h)
+add_library(CppCommands SHARED library.cpp library.h command.h executor/CommandExecutor.cpp executor/CommandExecutor.h impl/simplecommands.cpp impl/simplecommands.h)

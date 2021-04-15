@@ -5,7 +5,7 @@
 #include "../command.h"
 
 using namespace std;
-typedef command& COMMAND_POINTER;
+typedef command COMMAND_POINTER;
 
 class CommandExecutor {
 
