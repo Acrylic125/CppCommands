@@ -1,0 +1,6 @@
+#ifndef CPPCOMMANDS_LIBRARY_H
+#define CPPCOMMANDS_LIBRARY_H
+
+void hello();
+
+#endif //CPPCOMMANDS_LIBRARY_H
